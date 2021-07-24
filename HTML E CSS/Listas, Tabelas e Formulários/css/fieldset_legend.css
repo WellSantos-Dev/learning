@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+label {
+    display: block;
+    margin-top: 10px;
+}
+
+label input[type="text"], input[type=password] {
+    width: 300px;
+    padding: 7px;
+    font-size: 18px;
+    font-family: fantasy;
+}
+
+label a {
+    text-decoration: none;
+    color: #000;
+}
+
+label input[type=textarea] {
+    width: 270px;
+    height: 200px;
+}
+
+fieldset {
+    color: #444;
+    border: 1.5px solid #CCC;
+    text-align: center;
+}
+
+legend {
+    border: 1.5px solid #CCC;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-transform: uppercase;
+}
+
+legend:hover {
+    background-color: #CCC;
+}
+
+select {
+    width: 200px;
+    height: 40px;
+}
+
+select:hover {
+    background-color: #CCC;
+}

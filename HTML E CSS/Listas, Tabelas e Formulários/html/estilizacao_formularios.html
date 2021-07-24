@@ -1,0 +1,36 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <title>Estilização de formulários - HTML</title>
+        <link rel="stylesheet" href="../css/estilizacao_formularios.css">
+    </head>
+    
+    <body>
+        <form action="formularios.html" method="POST">
+            <label for="nick">
+                Digite o seu nickname:<br>
+                <input type="text" id="nick" name="nickname">
+            </label>
+
+            <label for="declaro">
+                Declaro que li e aceito os termos de uso
+                <input type="checkbox" id="declaro">
+            </label>
+            <label>
+                Selecione: <br>
+                <select name="categoria">
+                    <option value="1">Boné</option>
+                    <option value="2">Camisa</option>
+                    <option value="3">Tênis</option>
+                    <option value="4">Bermuda</option>
+                </select>
+            </label>
+
+            <label for="comentario">
+                Digite o seu comentário:<br>
+                <input type="textarea" name="texto" id="comentario">
+            </label>
+            <input type="submit" value="Cadastrar">
+        </form>
+    </body>
+</html>

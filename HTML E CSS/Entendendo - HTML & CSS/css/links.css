@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+}
+
+h1 {
+    margin: 30px;
+    font-family:fantasy;
+    color:darkorchid
+}
+
+button {
+    padding: 5px;
+    background-color: cyan;
+    border-radius: 5px;
+}
+
+button:hover {
+    background-color: darkorchid;
+}
+
+a {
+    text-decoration: none;
+}
+
+img {
+    width: 250px;
+}
+
+.conteudo {
+    text-align: center;
+    width: 400px;
+    background-color:wheat
+}
+
+div p {
+    margin: 30px;
+}
+
+#informativo {
+    color: red;
+    width: 80%;
+    margin-left: 40px;
+}
+
+

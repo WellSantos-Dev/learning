@@ -1,0 +1,9 @@
+#cor_rgb {
+    background-color:rgb(255, 70, 255);
+    color:rgb(178, 254, 243);
+}
+
+.cor_hexadecimal {
+    background-color: #00c3ff;
+    color: #6644ff;
+}
