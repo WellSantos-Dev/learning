@@ -1,0 +1,112 @@
+/* Variaveis */
+:root {
+    --color-blue-magenta: #BC98FF;
+    --color-heliotrope: #8B7FFF;
+    --color-white: #FFFFFF;
+    --color-gray : #666666;
+    --color-gray-body: #313232;
+}
+
+/* Global ==================================================*/
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--color-gray-body);
+}
+
+
+/* Tela de load ==================================================*/
+
+.ws-preloader {
+    width: 100vw;
+    height: 100vh;
+    display: none;
+    /* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#bc98ff+0,8b7fff+100 */
+    background: #bc98ff; /* Old browsers */
+    background: -moz-linear-gradient(left,  #bc98ff 0%, #8b7fff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #bc98ff 0%,#8b7fff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #bc98ff 0%,#8b7fff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc98ff', endColorstr='#8b7fff',GradientType=1 ); /* IE6-9 */
+
+}
+
+.ws-preloader .ws-logo {
+    width: 100%;
+    height: 70px;
+    display: table-cell;
+    vertical-align: middle;
+    text-align: center;
+}
+
+.ws-preloader .ws-logo img {
+    width: 70px;
+    height: 70px;
+    display: inline-block;
+}
+
+
+/* Tela Inicial ==================================================*/
+
+/* Header ----------------------------------------------*/
+
+.ws-menu {
+    width: 100%;
+    height: 60px;
+    display: block;
+    position: fixed;
+    top: 20px;
+    left: 0;
+    z-index: 100;
+}
+
+.ws-menu ul {
+    display: table;
+    height: 60px;
+    list-style: none;
+    margin: 0 auto;
+}
+
+.ws-menu ul li {
+    height: 60px;
+    display: inline-block;
+    position: relative;
+}
+
+.ws-menu ul li:hover:after, .ws-menu ul li.ws-active:after {
+    content: '';
+    position: absolute;
+    width: 76%;
+    height: 3px;
+    border-radius: 2px;
+    background: #bc98ff; /* Old browsers */
+    background: -moz-linear-gradient(left,  #bc98ff 0%, #8b7fff 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(left,  #bc98ff 0%,#8b7fff 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to right,  #bc98ff 0%,#8b7fff 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#bc98ff', endColorstr='#8b7fff',GradientType=1 ); /* IE6-9 */
+    bottom: -5;
+    left: 10%;
+}
+
+.ws-menu ul li a {
+    height: 60px;
+    display: block;
+    text-decoration: none;
+    padding: 0 25px;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 12px;
+    color: var(--color-gray);
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    line-height: 60px;
+}
+
+.ws-menu ul li a:hover, .ws-menu ul li.ws-active a{
+    color: var(--color-white);
+    font-weight: 800;
+}
+
+
