@@ -1,0 +1,18 @@
+body {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    height: 70px;
+    animation: updown 1s ease-in alternate infinite;
+}
+
+@keyframes updown {
+    50% {
+        transform: translateY(30px);
+    }
+}

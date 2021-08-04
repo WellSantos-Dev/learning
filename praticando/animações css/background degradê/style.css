@@ -1,0 +1,32 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a65d, #23d5ab) no-repeat;
+    background-size: 300% 300%;
+    font-family: sans-serif;
+    display: flex;
+    text-transform: uppercase;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    height: 100vh;
+    animation: gradient 10s infinite;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0 50%;
+    }
+
+    50% {
+        background-position: 100% 50%;
+    }
+
+    100% {
+        background-position: 0 50%;
+    }
+}

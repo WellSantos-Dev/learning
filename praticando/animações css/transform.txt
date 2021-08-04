@@ -1,0 +1,3 @@
+translate(X, Y)
+rotate(deg)
+scale(vezes)

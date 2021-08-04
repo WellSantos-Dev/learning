@@ -1,0 +1,8 @@
+transition-property: (Elementos que vao ser transicionados. Ex: background-color);
+transition-duration: (Tempo que isso vai acontecer. Ex: 2s)
+transition-delay: (Delay em que vai acontecer a ação. Ex: 1s)
+transition-timing-funciton: (easy = suaviza ida e volta){
+
+Usando a diretiva cubic-bezier(.15, .89, .85, .26)
+
+}

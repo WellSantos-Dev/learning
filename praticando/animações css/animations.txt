@@ -1,0 +1,17 @@
+animation-name: go; // Nome da animação
+  animation-duration: 10s; // Tempo da duração dessa animação
+  animation-time-function: easy-in-out; // Estilo da animação
+  animation-delay: 0; // quanto tempo pra animação começar
+  animation-iteration-count: infinite; // quantas vezes repete
+  animation-direction: alternate; // vai e volta, reverse faz ela vir do fim pro inicio
+
+
+@keyframes name_animation {
+	0%{
+	}
+
+	.....
+
+	100%{
+	}
+}
