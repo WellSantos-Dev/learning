@@ -1,14 +1,3 @@
-
-
-
-
-
-
-
-
-
-
-
 const booksByCategory = [
     {
         category: "riqueza",
